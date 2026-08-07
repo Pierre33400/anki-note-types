@@ -1,0 +1,5 @@
+{
+  "name": "Anki Note Types",
+  "package": "anki_note_types",
+  "description": "Build and synchronize versioned Anki note types."
+}

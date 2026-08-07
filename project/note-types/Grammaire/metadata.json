@@ -1,0 +1,6 @@
+{
+    "schemaVersion": 1,
+    "name": "Grammaire",
+  "stylesheet": "common.css",
+  "fields": ["Mot", "Réponse"]
+}

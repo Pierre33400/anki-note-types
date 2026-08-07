@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Anki note types installation state",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["engineVersion", "schemaVersion", "installed"],
+  "properties": {
+    "engineVersion": { "type": "string", "minLength": 1 },
+    "schemaVersion": { "const": 1 },
+    "installed": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["compiledHash", "installedAt", "compilerVersion"],
+        "properties": {
+          "compiledHash": { "type": "string", "minLength": 1 },
+          "installedAt": { "type": "string", "format": "date-time" },
+          "compilerVersion": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

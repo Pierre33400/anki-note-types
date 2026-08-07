@@ -1,0 +1,41 @@
+[project]
+name = "anki-note-types"
+version = "0.1.0"
+description = "Development toolkit for Anki note types."
+readme = "README.md"
+requires-python = ">=3.12"
+
+authors = [
+    { name = "Pierre" }
+]
+
+dependencies = []
+
+[project.scripts]
+anki-note-types = "anki_note_types.cli:main"
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+    "black"
+]
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 88
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests"
+]
+pythonpath = [
+    "src"
+]

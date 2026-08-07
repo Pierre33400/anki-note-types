@@ -1,0 +1,11 @@
+{
+  "engineVersion": "1.0.0",
+  "schemaVersion": 1,
+  "installed": {
+    "Vocabulaire": {
+      "compiledHash": "0123456789abcdef",
+      "installedAt": "2026-08-05T00:00:00Z",
+      "compilerVersion": "1.0.0"
+    }
+  }
+}

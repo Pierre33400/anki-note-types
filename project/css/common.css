@@ -1,0 +1,11 @@
+.card {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #222;
+  background: #fff;
+}
+
+.word {
+  font-weight: 700;
+}

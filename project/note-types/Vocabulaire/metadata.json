@@ -1,0 +1,6 @@
+{
+    "schemaVersion": 1,
+    "name": "Vocabulaire",
+  "stylesheet": "common.css",
+  "fields": ["Mot", "Définition", "Prononciation"]
+}
